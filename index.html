@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class=" alert-msg alert alert-success">
+                    Confira as novidades do blog  <a href="#">clicando aqui</a>.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Últimas postagens</h2>
+                <div class="container g-0">
+                    <div class="row">
+                        <div class="col-md-4 post">
+                            <img src="Imagens/dog.jpg" width="180px" height="180px" alt="">
+                            <h4 class="h5"> Para a saúde do seu pet </h4>
+                            <time>13/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia Mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="Imagens/estrelas.jpg" width="180px" height="180px" alt="">
+                            <h4 class="h5"> O que há lá fora ? </h4>
+                            <time>13/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia Mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="Imagens/estudos.jpg" width="180px" height="180px" alt="">
+                            <h4 class="h5"> Como focar nos estudos </h4>
+                            <time>13/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia Mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="Imagens/saúde.jpg" width="180px" height="180px" alt="">
+                            <h4 class="h5"> Tudo sobre meditação </h4>
+                            <time>13/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia Mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="Imagens/renda.jpg" width="180px" height="180px" alt="">
+                            <h4 class="h5"> Como investir em 2023 </h4>
+                            <time>13/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia Mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="Imagens/ia.jpg" width="180px" height="180px" alt="">
+                            <h4 class="h5"> O avanço da tecnologia </h4>
+                            <time>13/12/2023</time>
+                            <a class="btn btn-primary btn-sm">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+                <div>
+                    <h2>Anunciantes</h2>
+                    <div class=" anun row">
+                    <a href="#"><img src="Imagens/coke.jpg" width="180px" height="180px" alt=""> </a>
+                    </div>
+                    <div class=" anun row">
+                       <a href="#2"> <img src="Imagens/celular.jpg" width="180px" height="180px" alt=""> </a>
+                    </div>
+                    <div class=" anun row">
+                       <a href="#3"> <img src="Imagens/relogio.jpg" width="180px" height="180px" alt=""> </a>
+                    </div>
+                    <div class=" anun row">
+                     <a href="#4"><img src="Imagens/sapato.jpg" width="180px" height="180px" alt=""> </a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Entre em contato conosco</h2>
+                <form>
+                    <label class="form-label" for="nome">Nome:</label>
+                    <input class="form-control form-control-sm" type="text" id="nome">
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" id="email" class="form-control">
+                    <label class="form-label" for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" class="form-control">
+                    <label for="mensagem" class="form-label">Deixe sua mensagem:</label>
+                    <textarea id="mensagem" class="form-control"></textarea>
+                    <div class="form-check form-switch">
+                        <label class="form-check-label" for="aceito-termos">Li e concordo com os termos</label>
+                        <input class="form-check-input" type="checkbox" id="aceito-termos">
+                    </div>
+                    <button class="btn-form btn btn-success">Finalizar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>
